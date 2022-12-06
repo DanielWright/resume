@@ -1,19 +1,43 @@
 # Jobs
-# VP of Global Communications
-- company: Springfield International Human Rights Outreach
-  position: VP of Global Communications
-  duration: Oct, 2013 &mdash; Present
-  summary: Write about your core competencies in one or two sentences describing your position. If you held the position for a long time, it could be a longer section, including a couple bullet points	<ul class="resume-item-list"><li>A project you are proud of</li><li>Another awesome project</li><li>or a team or department you worked with</li></ul>
+- company: Chord Commerce
+  position: Staff Engineer
+  duration: April 2021 to June 2022
+  summary: |
+    I was given a broad mandate to conceive and implement improvements to the reliability, scalability, observability, and robustness of Chord's platform. In practice, this played out in the form of adding automation to core business tasks; modeling and applying key infrastructure in Terraform; implementing basic incidence response runbooks; collaborating on successful BFCM operation; hardening security around various AWS resources. Later, I was detailed to a skunkworks team working on the next-generation of deployment tools and infrastructure.
 
-# Director of Digital Stratgy
-- company: United Nations Human Rights Council
-  position: Director of Digital Strategy
-  duration:  Jun, 2010 &mdash; Sept, 2013
-  summary: If your stint was shorter, feel free to be brief and just call out the most meaningful points of your role. Be concise, and be meaninful. The person reading just needs enough to want to talk to you more about your experience.
+- company: Tilde Inc.
+  position: Staff Engineer
+  duration:  January 2020 to March 2021
+  summary: |
+    I joined the small team at Tilde in 2020, working on their Skylight instrumentation and performance-metrics SaaS. Then the pandemic happened.
 
+- company: Glossier Inc.
+  position: Staff Engineer
+  duration: December 2017 — October 2019
+  summary: |
+    At Glossier, I was an independent contributor, largely in the Technology Platform team, tasked with such concerns as developer productivity and experience, deployment reliability and performance, operational security, continuous integration, and application observability. Occasionally, I was embedded with other teams to provide technical design guidance and implementation assistance at many phases of a project.
 
-# Communications Coordinator
-- company: Springfield Women & Children's Center
-  position: Communications Coordinator
-  duration:   Jun, 2008  &mdash; May, 2010
-  summary: Led communication efforts across digital and traditional media channels for marketing and public relations, internal communication strategies, and coordinated support programs for the recipients of the center's services.
+- company: Dynamo
+  position: Technical Director
+  duration: July 2015 — December 2017
+  summary: |
+    In 2015, I was elevated to the technical directorship. Thereafter, I had my thumbs in a lot of pies:
+
+    - leading and mentoring the development teams;
+    - providing guidance for technology choices across the company;
+    - lending a technical voice in sales and business development;
+    - imparting a positive development culture to the entire team.
+
+- company: Dynamo
+  position: Rails Engineer
+  duration: February 2011
+  summary: |
+    I joined the digital agency largely on the strength of my ability to learn quickly, and my experience managing every facet of a project.
+
+    I learned the technology stack, and worked on numerous ecommerce projects for venture-backed startups. My passion for operations and site-reliability emerged during this time, as maintaining the stability of our clients' sites during high-traffic periods was paramount.
+
+- company: Steam Design
+  position: Lead Programmer
+  duration: February 2002 — December 2010
+  summary: |
+    I wore a lot of hats at Steam. As the sole technical team member for much of my stay there, I was involved in every phase of every project, from inception to delivery to operational maintenance. The technology stack for projects was largely PHP and some maintenance of legacy Perl applications.

@@ -1,12 +1,10 @@
 # Skills
 # Organizational leadership
-- skill: Organizational leadership
-  description: I have several years of experience leading organziations from community groups to business departments. From public speaking, to mentoring, to coordination of people and events, I can lead in any context.
+- skill: Technical
+  description: |
+    My deepest technical expertise is in Ruby (and Ruby on Rails), but at this phase of my career, I'm comfortable in a vast array of frameworks, methodologies, deployment platforms, databases, infrastructure and automation tools, monitoring platforms. In an abstract sense, I learn very quickly; given my existing foundation, almost nothing is unapproachable.
 
 # Communications strategy
-- skill: Communications strategy
-  description: Content and marketing strategy,
-
-# Digital content development and creation
-- skill: Digital content development and creation
-  description: Copy writing, graphic design, web design, front-end web development, print design
+- skill: Soft skills
+  description: |
+    I write very well, and have extensive experience communicating technical topics to less-technical audiences. I'm adept at unpacking problem spaces and identifying high-leverage opportunities.

@@ -12,3 +12,6 @@ sass:
 # your Jekyll server when you edit this file. Changes
 # to _config.yml are only recognized when the server starts
 host: 0.0.0.0
+
+exclude:
+  - "docker-compose*"

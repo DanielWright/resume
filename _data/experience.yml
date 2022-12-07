@@ -9,7 +9,7 @@
   position: Staff Engineer
   duration:  January 2020 to March 2021
   summary: |
-    I joined the small team at Tilde in 2020, working on their Skylight instrumentation and performance-metrics SaaS. Then the pandemic happened.
+    I joined the small team at Tilde in 2020, working on their Skylight instrumentation and performance-metrics SaaS. I made contributions to their onboarding tools, as well as improvements to Skylight's monitoring, deployment, and incident-response. I was also involved in diagnosing and exploring solutions for lag in their metrics-processing pipeline.
 
 - company: Glossier Inc.
   position: Staff Engineer

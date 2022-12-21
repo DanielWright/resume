@@ -3,13 +3,15 @@
   position: Staff Engineer
   duration: April 2021 to June 2022
   summary: |
-    I was given a broad mandate to conceive and implement improvements to the reliability, scalability, observability, and robustness of Chord's platform. In practice, this played out in the form of adding automation to core business tasks; modeling and applying key infrastructure in Terraform; implementing basic incidence response runbooks; collaborating on successful BFCM operation; hardening security around various AWS resources. Later, I was detailed to a skunkworks team working on the next-generation of deployment tools and infrastructure.
+    Conceived and implemented numerous improvements to the reliability, scalability, observability, and robustness of Chord's platform. This included consolidating disparate deployment platforms and processes; adding Terraform automation to streamline employee onboarding, customer provisioning, and data warehousing; implementing basic incidence response runbooks; collaborating on successful BFCM operations; hardening security around RDS, ELB, and other AWS resources.
+
+    Later, I spearheaded an initiative to design and implement a next-generation set of deployment tools and automation infrastructure as part of a small skunkworks team.
 
 - company: Tilde Inc.
   position: Staff Engineer
   duration:  January 2020 to March 2021
   summary: |
-    I joined the small team at Tilde in 2020, working on their Skylight instrumentation and performance-metrics SaaS. I made contributions to their onboarding tools, as well as improvements to Skylight's monitoring, deployment, and incident-response. I was also involved in diagnosing and exploring solutions for lag in their metrics-processing pipeline.
+    Contributed incremental improvements to onboarding tools. Delivered improvements to the core product's monitoring, deployment reliability, and incident-response policies. Collaborated closely in diagnosing and exploring solutions for thundering-herd issues causing signficant backup in the metrics-processing pipeline.
 
 - company: Glossier Inc.
   position: Staff Engineer

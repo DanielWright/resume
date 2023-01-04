@@ -1,45 +1,78 @@
 # Jobs
 - company: Chord Commerce
   position: Staff Engineer
-  duration: April 2021 to June 2022
+  duration: April 2021 — June 2022
   summary: |
-    Conceived and implemented numerous improvements to the reliability, scalability, observability, and robustness of Chord's platform. This included consolidating disparate deployment platforms and processes; adding Terraform automation to streamline employee onboarding, customer provisioning, and data warehousing; implementing basic incidence response runbooks; collaborating on successful BFCM operations; hardening security around RDS, ELB, and other AWS resources.
+    As a team member broadly mandated to improve the reliability, scalability, observability, and robustness of Chord's platform:
 
-    Later, I spearheaded an initiative to design and implement a next-generation set of deployment tools and automation infrastructure as part of a small skunkworks team.
+    - Consolidated disparate deployment platforms (e.g. Cloud66, Heroku, EC2) to a single more-consistent process based on Heroku Pipelines and Review Apps;
+    - Automated employee onboarding, customer provisioning, data warehousing, and other platform infrastructure in HashiCorp Terraform;
+    - Implemented basic incident-response in PagerDuty, based on monitoring in Datadog;
+    - Defined BFCM on-call rotations and designed BFCM incident-response policies in Intercom and PagerDuty;
+    - Hardened foundational security practices in AWS (EC2, RDS, ELB, IAM), as well as Cloudflare (DNS, Load Balancing, WAF), and Heroku.
+
+    Later, as part of a skunkworks team, conceived and began interating on a next-generation deployment platform using Terraform and Kubernetes, with a React frontend and tightly integrating with GitHub's REST API.
 
 - company: Tilde Inc.
   position: Staff Engineer
-  duration:  January 2020 to March 2021
+  duration:  January 2020 — March 2021
   summary: |
-    Contributed incremental improvements to onboarding tools. Delivered improvements to the core product's monitoring, deployment reliability, and incident-response policies. Collaborated closely in diagnosing and exploring solutions for thundering-herd issues causing signficant backup in the metrics-processing pipeline.
+    As a member of Tilde's versatile team:
+
+    - Contributed incremental improvements to onboarding tools written in bash;
+    - Delivered improvements to Skylight's monitoring in Librato, and incident-response in VictorOps;
+    - Began applying application-as-code principles to Skylight infrastructure in AWS CDK;
+    - Collaborated closely in diagnosing and exploring solutions for thundering-herd issues in the metrics-processing pipeline built in Spring on top of Apache Kafka and Datastax Cassandra.
 
 - company: Glossier Inc.
   position: Staff Engineer
   duration: December 2017 — October 2019
   summary: |
-    At Glossier, I was an independent contributor, largely in the Technology Platform team, tasked with such concerns as developer productivity and experience, deployment reliability and performance, operational security, continuous integration, and application observability. Occasionally, I was embedded with other teams to provide technical design guidance and implementation assistance at many phases of a project.
+    As an independent contributor in the Technology Platform team:
+
+    - Conceived and implemented a fully-tested Contentful client wrapper, written in Ruby and leveraging a Redis LRU datastore, to intelligently cache lookups from Contentful's API, greatly improving first-byte and first-draw response times for key storefront pages and in checkout;
+    - Investigated significant PostgreSQL deadlocks around stock-level consistency, and implemented toggleable eventual-consistency to
+    - Helped implement and document feature-flagging in the core Solidus store application, using Flipper;
+    - Provided key contributions to efforts to convert some of the storefront to SSR (using Gatsby in an AWS CodePipeline workflow), edge-cached with Cloudflare Workers;
+    - Contributed detailed PagerDuty runbooks for common outages, and GitBook documentation for disaster recovery;
+    - Administered Glossier's AWS organization, including on- and offboarding;
+    - Maintained continuous integration in TravisCI, particularly in the interests of lowering build times;
+    - Performed maintenance and upgrades to cloud infrastucture, in AWS, Cloud66, Cloudflare, DigitalOcean, and others;
+    - Closely collaborated on initial efforts to apply infrastructure-as-code principles in AWS CDK;
+    - Frequently embedded into other teams to provide operationalization guidance;
+    - Provided on-demand code-review and pairing assistance on hard problems across the organization, usually in Ruby;
+    - Collaborated on metrics and other monitors captured in Datadog, and dashboards visualizing various business and infrastrucure.
 
 - company: Dynamo
   position: Technical Director
   duration: July 2015 — December 2017
   summary: |
-    In 2015, I was elevated to the technical directorship. Thereafter, I had my thumbs in a lot of pies:
+    After being elevated to the role of technical director, my day-to-day
+    involvement in client projects declined, as I turned my attention to
+    becoming a better manager of people. In this role:
 
-    - leading and mentoring the development teams;
-    - providing guidance for technology choices across the company;
-    - lending a technical voice in sales and business development;
-    - imparting a positive development culture to the entire team.
+    - Conceived and implemented a routine 1:1 policy;
+    - Collected and collated peer reviews, as well as delivering performance reviews;
+    - Helped implement the EOS model and served on the EOS Board;
+    - Guided the adoption of, and investment in, various technology choices;
+    - Lent a technical voice in sales and business development;
+    - Imparting a positive development culture to the entire team;
+    - Tried to continue providing high-leverage code-review and pair opportunities.
 
 - company: Dynamo
   position: Rails Engineer
   duration: February 2011 — July 2015
   summary: |
-    I joined the digital agency largely on the strength of my ability to learn quickly, and my experience managing every facet of a project.
+    As first a frontend engineer, and later an engineer comfortable across the spectrum of development responsibilities:
 
-    I learned the technology stack, and worked on numerous ecommerce projects for venture-backed startups. My passion for operations and site-reliability emerged during this time, as maintaining the stability of our clients' sites during high-traffic periods was paramount.
+    - Became quickly comfortable in Ruby, Ruby on Rails, SASS, the Spree ecommerce framework, as well as expanding my SQL relational database skillset to PostgreSQL;
+    - Served as backend tech lead for a client app and REST API, which used extensive API versioning, multiphase AWS Mechanical Turk workloads, and a slew of secondary AWS resources (S3, RDS, Route53);
+    - Collaborated extensively to the internationalization/localization effort needed for a client's expansion to the UK;
+    - Contributed to several extensions to the Spree framework, including a subscription engine for a prominent gourmet coffee brand, and an SPA checkout for a menswear brand;
+    - Frequently served as incident commander for client outages, particularly during high-traffic events such as BFCM.
 
 - company: Steam Design
   position: Lead Programmer
   duration: February 2002 — December 2010
   summary: |
-    I wore a lot of hats at Steam. As the sole technical team member for much of my stay there, I was involved in every phase of every project, from inception to delivery to operational maintenance. The technology stack for projects was largely PHP and some maintenance of legacy Perl applications.
+    I wore a lot of hats at Steam. As the sole technical team member for much of my stay there, I was involved in every phase of every project, from inception to delivery to operational maintenance. The technology stack for projects was largely PHP/CakePHP with MySQL, often deployed on all-in-one cPanel platforms like Dreamhost; as well as some maintenance of legacy Perl applications.

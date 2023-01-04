@@ -2,9 +2,9 @@
 # Organizational leadership
 - skill: Technical
   description: |
-    My deepest technical expertise is in Ruby (and Ruby on Rails), but at this phase of my career, I'm comfortable in a vast array of frameworks, methodologies, deployment platforms, databases, infrastructure and automation tools, monitoring platforms. In an abstract sense, I learn very quickly; given my existing foundation, almost nothing is unapproachable.
+    My deepest technical expertise is in Ruby (and Ruby on Rails). I'm comfortable in a wide array of technologies and tools besides. I've written tools in Node, Python, bash, and dabbled in Rust. I've built and maintained SQL and NoSQL databases in production. I've deployed production systems to Heroku, DigitalOcean, and EC2. I've used Docker in development and production. I've applied GitOps concepts using CDK and Terraform. I can stay out of trouble in Big Data platforms like Kafka and Cassandra.
 
 # Communications strategy
 - skill: Soft skills
   description: |
-    I write very well, and have extensive experience communicating technical topics to less-technical audiences. I'm adept at unpacking problem spaces and identifying high-leverage opportunities.
+    I write very well, and have extensive experience communicating technical topics to less-technical audiences. I'm adept at unpacking problem spaces and identifying high-leverage opportunities. Underpinning everything is an aptitude for learning, and learning _quickly_.

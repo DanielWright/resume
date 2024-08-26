@@ -1,4 +1,18 @@
 # Jobs
+- company: Contractor at Apple
+  position: Lead Ruby on Rails Developer
+  duration: February 2023 —
+  summary: |
+    As part of a cross-functional group supporting to Apple's recycling and trade-in programs:
+
+    - implemented robust and high-availability REST APIs, in Golang and Ruby, to support internal- and external-facing products;
+    - collaborated in a working-group to improve the resilience, reliability, observability, and performance of background jobs;
+    - designed and implemented, based on requirements from multiple internal partners, a framework for detecting and acting on fraud heuristics;
+    - advocated for more robust and resilient development and operationalization practices across various products;
+    - applied wide-ranging changes to code and workflows across projects to implement Apple's inclusivity mandates.
+
+    N.B. The vagueness here is unavoidable, due to confidentiality requirements.
+
 - company: Chord Commerce
   position: Staff Engineer
   duration: April 2021 — June 2022

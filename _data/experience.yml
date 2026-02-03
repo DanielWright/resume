@@ -3,29 +3,26 @@
   position: Lead Ruby on Rails Developer
   duration: February 2023 —
   summary: |
-    As part of a cross-functional group supporting to Apple's recycling and trade-in programs:
+    As part of the group supporting Apple's recycling and trade-in programs:
 
-    - implemented robust and high-availability REST APIs, in Golang and Ruby, to support internal- and external-facing products;
-    - collaborated in a working-group to improve the resilience, reliability, observability, and performance of background jobs;
-    - designed and implemented, based on requirements from multiple internal partners, a framework for detecting and acting on fraud heuristics;
-    - advocated for more robust and resilient development and operationalization practices across various products;
-    - applied wide-ranging changes to code and workflows across projects to implement Apple's inclusivity mandates.
-
-    N.B. The vagueness here is unavoidable, due to confidentiality requirements.
+    - Designed and implemented a device-configuration lookup API, in Go and Ruby, making use of the Façade pattern to aggregate data from multiple downstream datasources;
+    - Improved the resilience, reliability, observability, and performance of background work in Sidekiq;
+    - Advocated for, and contributed to, more robust and resilient development and operationalization practices;
+    - Championed the use of a Rubocop-based coding style guide, along with a process for unobtrusively implementing it;
+    - Implemented Apple's inclusive-language mandates across various codebases and CI/CD platforms.
 
 - company: Chord Commerce
   position: Staff Engineer
   duration: April 2021 — June 2022
   summary: |
-    As a team member broadly mandated to improve the reliability, scalability, observability, and robustness of Chord's platform:
+    As an early member of Chord's nascent technology-platform team, broadly mandated to improve reliability, scalability, and observability across Chord's offerings:
 
     - Consolidated disparate deployment platforms (e.g. Cloud66, Heroku, EC2) to a single more-consistent process based on Heroku Pipelines and Review Apps;
     - Automated employee onboarding, customer provisioning, data warehousing, and other platform infrastructure in HashiCorp Terraform;
-    - Implemented basic incident-response in PagerDuty, based on monitoring in Datadog;
-    - Defined BFCM on-call rotations and designed BFCM incident-response policies in Intercom and PagerDuty;
+    - Implemented incident-response policies and runbooks in PagerDuty, based on monitoring in Datadog, particularly with regard to high-leverage periods;
     - Hardened foundational security practices in AWS (EC2, RDS, ELB, IAM), as well as Cloudflare (DNS, Load Balancing, WAF), and Heroku.
 
-    Later, as part of a skunkworks team, conceived and began interating on a next-generation deployment platform using Terraform and Kubernetes, with a React frontend and tightly integrating with GitHub's REST API.
+    Later, as part of a skunkworks team, conceived and iterated on a next-generation deployment platform using Terraform and Kubernetes.
 
 - company: Tilde Inc.
   position: Staff Engineer
@@ -33,9 +30,9 @@
   summary: |
     As a member of Tilde's versatile team:
 
-    - Contributed incremental improvements to onboarding tools written in bash;
+    - Contributed incremental improvements to onboarding tools and materials;
     - Delivered improvements to Skylight's monitoring in Librato, and incident-response in VictorOps;
-    - Began applying application-as-code principles to Skylight infrastructure in AWS CDK;
+    - Began applying AWS CDK application-as-code principles to Skylight infrastructure;
     - Collaborated closely in diagnosing and exploring solutions for thundering-herd issues in the metrics-processing pipeline built in Spring on top of Apache Kafka and Datastax Cassandra.
 
 - company: Glossier Inc.
@@ -45,7 +42,7 @@
     As an independent contributor in the Technology Platform team:
 
     - Conceived and implemented a fully-tested Contentful client wrapper, written in Ruby and leveraging a Redis LRU datastore, to intelligently cache lookups from Contentful's API, greatly improving first-byte and first-draw response times for key storefront pages and in checkout;
-    - Investigated significant PostgreSQL deadlocks around stock-level consistency, and implemented toggleable eventual-consistency to
+    - Investigated significant PostgreSQL deadlocks around stock-level consistency, and implemented toggleable eventual-consistency to respond rapidly to peak-load incidents;
     - Helped implement and document feature-flagging in the core Solidus store application, using Flipper;
     - Provided key contributions to efforts to convert some of the storefront to SSR (using Gatsby in an AWS CodePipeline workflow), edge-cached with Cloudflare Workers;
     - Contributed detailed PagerDuty runbooks for common outages, and GitBook documentation for disaster recovery;
@@ -54,24 +51,21 @@
     - Performed maintenance and upgrades to cloud infrastucture, in AWS, Cloud66, Cloudflare, DigitalOcean, and others;
     - Closely collaborated on initial efforts to apply infrastructure-as-code principles in AWS CDK;
     - Frequently embedded into other teams to provide operationalization guidance;
-    - Provided on-demand code-review and pairing assistance on hard problems across the organization, usually in Ruby;
+    - Provided on-demand code-review and pairing assistance on hard problems across the organization;
     - Collaborated on metrics and other monitors captured in Datadog, and dashboards visualizing various business and infrastrucure.
 
 - company: Dynamo
   position: Technical Director
   duration: July 2015 — December 2017
   summary: |
-    After being elevated to the role of technical director, my day-to-day
-    involvement in client projects declined, as I turned my attention to
-    becoming a better manager of people. In this role:
+    As the agency's technical director, with broader leadership and people-management responsibilities:
 
-    - Conceived and implemented a routine 1:1 policy;
-    - Collected and collated peer reviews, as well as delivering performance reviews;
-    - Helped implement the EOS model and served on the EOS Board;
     - Guided the adoption of, and investment in, various technology choices;
-    - Lent a technical voice in sales and business development;
-    - Imparting a positive development culture to the entire team;
-    - Tried to continue providing high-leverage code-review and pair opportunities.
+    - Fostered a software-development culture of resilience and thoughtfulness;
+    - Contributed a technical voice and perspective in sales and business development;
+    - Collected and collated peer reviews, as well as delivering performance reviews;
+    - Conceived and implemented a routine 1:1 policy;
+    - Provided high-leverage code-review and pair opportunities, when possible.
 
 - company: Dynamo
   position: Rails Engineer
@@ -79,14 +73,18 @@
   summary: |
     As first a frontend engineer, and later an engineer comfortable across the spectrum of development responsibilities:
 
-    - Became quickly comfortable in Ruby, Ruby on Rails, SASS, the Spree ecommerce framework, as well as expanding my SQL relational database skillset to PostgreSQL;
-    - Served as backend tech lead for a client app and REST API, which used extensive API versioning, multiphase AWS Mechanical Turk workloads, and a slew of secondary AWS resources (S3, RDS, Route53);
-    - Collaborated extensively to the internationalization/localization effort needed for a client's expansion to the UK;
-    - Contributed to several extensions to the Spree framework, including a subscription engine for a prominent gourmet coffee brand, and an SPA checkout for a menswear brand;
-    - Frequently served as incident commander for client outages, particularly during high-traffic events such as BFCM.
+    - Contributed widely across the technical spectrum on client products using the Spree and Solidus e-commerce frameworks;
+    - Implemented and maintained a receipt-scanning application, leveraging extensive AWS Mechanical Turk pipelines, across multiple API versions;
+    - Spearheaded the I18n/L10n efforts for several clients' geographical expansion efforts;
+    - Contributed extensions to the Spree framework, including a subscription engine and an SPA checkout experience;
+    - Served as incident commander for client outages, particularly during high-traffic events such as BFCM.
 
 - company: Steam Design
   position: Lead Programmer
   duration: February 2002 — December 2010
   summary: |
-    I wore a lot of hats at Steam. As the sole technical team member for much of my stay there, I was involved in every phase of every project, from inception to delivery to operational maintenance. The technology stack for projects was largely PHP/CakePHP with MySQL, often deployed on all-in-one cPanel platforms like Dreamhost; as well as some maintenance of legacy Perl applications.
+    As the primary (and, later, sole) technical lead, I wore a lot of hats:
+
+    - Implemented and maintained greenfield and legacy client applications, in PHP and Perl, with MySQL or flat-text databases;
+    - Managed hosting on cPanel-based platforms like Dreamhost;
+    - Instituted source-control practices using, initially, Perforce (yes, really), and later Subversion and then Mercurial.
